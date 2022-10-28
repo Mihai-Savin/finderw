@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @RequestMapping("/init")
+    @RequestMapping("/")
     public String home(){
         System.out.println("System initialized.");
-        return "Result here";
+        return "Welcome to the keyword finder online app";
 
     }
 
